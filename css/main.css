@@ -1,0 +1,55 @@
+body {
+    background: #2400ff;
+}
+
+.todo_list {
+    width: 700px;
+    min-height: 250px;
+    background: #7e2bd9;
+    box-shadow: 0 2px 10px 0 #074b83;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px; 
+}
+
+button {
+    margin-top: 10px;
+    width: 425px;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.message {
+    margin-top: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+.todo {
+    list-style-type: none; 
+}
+
+.wrapper {
+    width: 700px;
+    margin: auto;
+}
+
+.important {
+    font-weight: bold;
+    color: #A40E11; 
+}
